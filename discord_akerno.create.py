@@ -3,7 +3,7 @@ from discord_akerno import CreateCommand, ext
 Permission = ext.Permission
 
 CreateCommand(
-    name='purgea',
+    name='purge',
     category='moderation',
     description='efface tout les messages',
     aliases=['nuke'],
